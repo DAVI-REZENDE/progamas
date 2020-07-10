@@ -1,0 +1,54 @@
+body {
+    overflow: scroll;
+}
+
+#spinner {
+    display: none;
+    width: 5vw;
+}
+
+#erro {
+    color: red;
+    display: none;
+    font-weight: bold;
+}
+
+.campo-digitacao {
+    font-size: 20px;
+    height: 130px;
+    border: 3px solid black;
+}
+
+.frase {
+    font-size: 20px;
+    text-align: left;
+    text-align: center;
+}
+
+.campo-desativado {
+    background-color: lightgray;
+}
+
+.icones {
+    vertical-align: middle;
+}
+
+.borda-verde {
+    border: 3px solid green;
+}
+
+.borda-vermelha {
+    border: 3px solid red;
+}
+
+.placar {
+    display: none;
+}
+
+#frase-id {
+    width: 50px;
+}
+
+#botao-sync {
+    float: right;
+}
