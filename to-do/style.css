@@ -50,6 +50,12 @@ main{
     background: #444;
 }
 
+.list--header .input-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .list--header .input-block input{
     flex: 1;
     background: #555;
@@ -79,10 +85,10 @@ main{
     padding: 10px;
     transition: all ease .2s;
     cursor: pointer;
-}
 
-.list--body ol#list li input{
-    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .list--body ol#list li.active{
