@@ -72,7 +72,7 @@ function addItemInListAndLocalStorage(element, value){
 function toggleActive(item) {
     const buttonOfRemove = item.querySelector('.close-item')
 
-    item.addEventListener('click', () => {
+    item.addEventListener('click', () => {            
         item.classList.toggle('active')
     })
 
