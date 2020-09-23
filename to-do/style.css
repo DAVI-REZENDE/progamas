@@ -92,7 +92,7 @@ main{
 }
 
 .list--body ol#list li.active{
-   background: #555;
+   background: #1babffa4;
    color: #ddd;
    text-decoration: line-through;
 }
