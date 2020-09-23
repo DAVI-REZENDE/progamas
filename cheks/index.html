@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda Escolar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>A Fazeres</h1>
+    <div class="input-block">
+        <div class="input">
+            <input type="text">
+            <span>+</span>
+        </div>
+    </div>
+    <div class="checks">
+        
+    </div>
+    <h2>Repaçar</h2>
+    <section class="repacar">
+        <!-- <div class="note">
+            <div class="title">Repaçar em: Ciencias</div>
+            <textarea rows="10"></textarea>
+        </div> -->
+
+        <div class="new">
+            <span>Crie uma nova nota, adicione o titulo:</span>
+            <input type="text" placeholder="Adicione o titulo da sua nota">
+        </div>
+    </section>
+
+    <div data-state="active" class="notification-permission">
+        <span>Deseja permitir que enviemos notificações sobre seus a fazeres?</span>
+        <div class="buttons">
+            <button id="permission-button">Sim</button>
+            <button id="close-permission">Não</button>
+        </div>
+    </div>
+
+    <script src="notifications.js"></script>
+    <script src="scripts.js"></script>
+    <script src="repacar.js"></script>
+</body>
+</html>
