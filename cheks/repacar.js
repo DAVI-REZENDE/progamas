@@ -64,7 +64,7 @@ function addItemInLocalStorage(name, text){
 }
 
 function getNotesInLocalStorage() {
-    const notes = JSON.parse(localStorage.getItem('notes'))
+    const notes = JSON.parse(localStorage.getItem('notes')) || []
 
     notes.forEach((note) => {
 
