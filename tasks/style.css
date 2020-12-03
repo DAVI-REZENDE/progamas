@@ -1,0 +1,106 @@
+body{
+    background-color: #333;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+*{
+    color: white;
+}
+
+/* ol span{
+    border-top: 1px solid #ff891b;
+    display: block;
+    margin-top: 20px;
+} */
+
+ol {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.item span{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.item li {
+    flex: 1;
+
+    font-weight: bold;
+    font-family: sans-serif;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item li textarea {
+    width: 100%;
+    resize: vertical;
+}
+
+#iditable{
+    background: transparent;
+    border: 0;
+    outline: none;
+    font-weight: bold;
+    font-size: 20px;
+    overflow: visible;
+}
+
+.buttons i{
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: 10px;
+    padding: 5px;
+}
+
+.err{
+    background-color: #a30000;
+}
+
+.ok{
+    background-color: #005500;
+}
+
+.edit{
+    background-color: #0594c0;
+}
+
+.certo,
+.errado,
+.initial{
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20   px;
+}
+
+.certo {
+    background-color: green;
+    
+}
+
+.errado {
+    background-color: rgb(163, 0, 0);
+}
+
+.initial{
+    background-color: gray;
+}
